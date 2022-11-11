@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid </title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        .myrow,
+        .mycol {
+
+            background-color: gainsboro;
+            border: 1px solid blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--row with 3 columns-->
+    <div class="container text-center">
+        <br>
+        <h3 style="color:dodgerblue ;">Grid</h3>
+        <br>
+        <div class="row myrow">
+            <div class="col mycol">
+                1
+            </div>
+            <div class="col mycol">
+                2
+            </div>
+            <div class="col mycol">
+                3
+            </div>
+        </div>
+
+        <br>
+
+        <!--Row with 3 columns-->
+
+        <div class="row myrow">
+            <div class="col mycol">
+                1
+            </div>
+            <div class="col mycol col-6">
+                col-6
+            </div>
+            <div class="col mycol col-3">
+                col-3
+            </div>
+        </div>
+        <br>
+
+        <!--Row with 4 columns-->
+
+        <div class="row myrow">
+            <div class="col mycol col-lg-2">
+                col-lg-2
+            </div>
+            <div class="col mycol col-lg-4">
+                col-lg-4
+            </div>
+            <div class="col mycol col-lg-3">
+                col-lg-3
+            </div>
+            <div class="col mycol col-lg-3">
+                col-lg-3
+            </div>
+        </div>
+        <br>
+
+        <!--Row with 2 columns-->
+
+        <div class="row myrow">
+            <div class="col mycol col-xl-6">
+                col-xl-6
+            </div>
+            <div class="col mycol col-xl-6">
+                col-xl-6
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
